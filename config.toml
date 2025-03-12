@@ -1,0 +1,33 @@
+[params]
+title = "DavidWortham.com"
+author = "David Wortham"
+reversepagetitle = true
+description = """
+New to SwiftUI development; long time Software Engineer
+"""
+profilePicture = "images/profile.jpg"
+
+    [[params.socialIcons]]
+    icon = "fab fa-linkedin"
+    title = "Linkedin"
+    url = "https://www.linkedin.com/in/david-wortham-7820462/"
+
+[menu]
+
+    [[menu.main]]
+    name = "Home"
+    identifier = "home"
+    weight = 100
+    url = "/"
+
+    [[menu.main]]
+    name = "Posts"
+    weight = 200
+    identifier = "posts"
+    url = "/post/"
+
+    [[menu.main]]
+    name = "About"
+    weight = 300
+    identifier = "about"
+    url = "/about/"
